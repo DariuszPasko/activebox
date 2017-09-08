@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Alex+Brush");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: #ffffff;
+  font-size: 13px;
+  color: #ffffff; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+header {
+  background: url(../img/baner.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.head {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.3); }
+
+.logo svg {
+  padding: 20px 0 40px 0; }
+
+.menu ul li {
+  display: inline-block;
+  float: right;
+  padding: 20px 0 40px 20px;
+  line-height: 30px; }
+
+.menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  list-style-type: none; }
+  .menu ul li a:hover {
+    color: #e84545; }
+
+.masthead {
+  padding: 20% 0; }
+
+.masthead h1 {
+  font-size: 45px;
+  font-weight: 1200;
+  padding: 0 24%;
+  text-transform: uppercase;
+  text-align: center; }
+
+.masthead p {
+  padding: 10px 24% 7%;
+  text-align: center; }
+
+.btn {
+  background: #e84545;
+  color: #ffffff;
+  margin: 0 auto;
+  border: none;
+  padding: 10px 40px;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase; }
+
+.features {
+  color: #2d3033;
+  margin: 5% 0; }
+
+.features h2 {
+  text-align: center;
+  padding: 30px 0; }
+
+.box {
+  text-align: center;
+  margin: 15px 0; }
+
+.features p {
+  padding: 0 13%; }
+
+.images img {
+  margin: 0;
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid #fff;
+  height: 200px;
+  display: block; }
+
+.images {
+  position: relative; }
+
+.layer {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  width: 100%;
+  padding: 60px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  background-color: rgba(232, 69, 69, 0.7);
+  transition: 1s;
+  z-index: 2; }
+  .layer:hover {
+    opacity: 2; }
+
+.text {
+  color: #fff;
+  text-align: center; }
+
+.text p span {
+  font-weight: 700; }
+
+.team {
+  margin: 5% 0; }
+
+.team h2 {
+  padding: 10px 0 5px;
+  color: #2d3033;
+  font-size: 22px; }
+
+.team h3 {
+  color: #e84545;
+  font-size: 13px;
+  padding: 0 0 20px; }
+
+.team p {
+  color: #2d3033;
+  padding: 0 20px 0 0; }
+
+.social {
+  margin: 10px 0; }
+
+.social .fa {
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 15px;
+  color: #c6cacc;
+  padding: 8px 12px;
+  border: solid #c6cacc 1px;
+  transition: 1s; }
+  .social .fa:hover {
+    color: #e84545;
+    border: solid #e84545 1px; }
+
+.clients {
+  background: #53354a; }
+
+.clients-girl img {
+  width: 100%; }
+
+.clients-citation h2 {
+  padding: 80px 150px 0 30px;
+  font-style: italic;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif; }
+
+.clients-citation p {
+  padding: 30px 0 0 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase; }
+
+.download {
+  text-align: center;
+  color: #2d3033;
+  padding: 7% 0; }
+
+.download h2 {
+  font-size: 28px;
+  padding: 0 0 0px 0; }
+
+.download p {
+  font-size: 18px;
+  padding: 0 0 40px 0; }
+
+footer {
+  background: #3a3e64;
+  color: #fff;
+  text-align: center;
+  padding: 4% 0; }
+
+footer h2 {
+  font-size: 13px;
+  padding: 0 0 10px 0;
+  text-transform: uppercase; }
+
+footer p span {
+  padding: 0 10px 0 10px; }
+
+.footer2 {
+  background: #313454;
+  text-align: center;
+  padding: 2% 0; }
+
+.footer2 p {
+  padding: 5px 0 0 0; }
+
+/*bootstrap*/
+.navbar-nav {
+  color: #e84545;
+  text-align: center; }
+
+.navbar-default .navbar-nav li a {
+  color: #e84545; }
+  .navbar-default .navbar-nav li a:hover {
+    color: #fff; }
+
+.navbar-default {
+  background: rgba(76, 175, 80, 0); }
+
+.navbar-toggle {
+  background: rgba(76, 175, 80, 0); }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #fff; }
+  .navbar-default .navbar-toggle .icon-bar:hover {
+    background: #fff; }
+  .navbar-default .navbar-toggle .icon-bar:focus {
+    background: #fff; }
+
+.navbar-default .navbar-toggle:focus {
+  background: #e84545; }
+
+.navbar-default .navbar-toggle:hover {
+  background: #e84545; }
+
+.scrollTopButton {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  visibility: hidden;
+  overflow: hidden;
+  z-index: 99999999;
+  background-image: url("scroll.png");
+  right: 30px;
+  bottom: 30px;
+  transition: all 0.5s ease-in-out; }
+  .scrollTopButton .scrollTopButton.show {
+    visibility: visible;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out; }
+
+/*# sourceMappingURL=style.css.map */
